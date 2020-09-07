@@ -66,7 +66,7 @@ build() {
                 --enable-dynacl \
                 --enable-aci
 
-        make -j16
+        make
 
         make prefix=/usr libexecdir=/usr/lib \
                 -C contrib/slapd-modules/passwd/pbkdf2
