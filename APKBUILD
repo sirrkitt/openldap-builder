@@ -62,7 +62,7 @@ build() {
                 --with-cyrus-sasl \
                 --enable-rlookups \
                 --with-mp \
-                --enable-debug=no \
+                --enable-debug \
                 --enable-dynacl \
                 --enable-aci
 
